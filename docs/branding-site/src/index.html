@@ -5,7 +5,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./styles/output.css" rel="stylesheet" />
   </head>
-  <body>
-    <h1 class="text-5xl font-bold underline bg-teal-500">Hello world!</h1>
+  <body class="bg-[#FBF7EE]">
+    <!-- Responsive navigation -->
+    <nav class="flex flex-col md:flex-row justify-around items-center p-4">
+      <div class="logo mt-5">
+        <h1 class="text-xl md:text-2xl font-bold">Cosplay Clothings</h1>
+      </div>
+      <div class="nav-images mt-5 flex space-x-4 md:space-x-10">
+        <img src="images/SVG/SVG 1.svg" class="w-6 md:w-auto" />
+        <img src="images/SVG/SVG 2.svg" class="w-6 md:w-auto" />
+        <img src="images/SVG/SVG 3.svg" class="w-6 md:w-auto" />
+      </div>
+    </nav>
+    <!-- Responsive header section -->
+    <header
+      class="mt-10 md:mt-20 flex flex-col md:flex-row justify-center items-center px-4 md:px-8 gap-8 md:justify-around"
+    >
+      <div class="card-one text-center md:text-left">
+        <h1 class="font-bold mb-4 md:mb-9 text-2xl md:text-3xl">
+          Bring characters to life
+        </h1>
+        <p class="w-full md:w-[340px] font-light text-sm md:text-base">
+          Anime cosplaying transforms fans into living embodiments of their
+          favorite characters through detailed costumes, wigs, and accessories.
+          This artistic expression combines craftsmanship, performance, and
+          community celebration at conventions worldwide.
+        </p>
+        <img
+          src="images/cos1.jpg"
+          class="w-full max-w-[300px] mt-4 md:mt-8 mx-auto md:mx-0"
+        />
+      </div>
+      <div class="card-two text-center md:text-left mt-8 md:mt-0">
+        <img
+          src="images/cos2.jpg"
+          class="w-full max-w-[300px] mb-4 md:mb-8 rounded-t-[40rem] mx-auto md:mx-0"
+        />
+        <p
+          class="w-full md:w-[340px] mb-4 md:mb-5 font-light text-sm md:text-base"
+        >
+          Anime cosplaying transforms fans into living embodiments of their
+          favorite characters through detailed costumes, wigs, and accessories.
+          This artistic expression combines craftsmanship, performance, and
+          community celebration at conventions worldwide. Cosplayers dedicate
+          countless hours perfecting their looks, creating a vibrant subculture
+          where imagination becomes reality and fictional worlds momentarily
+          exist in ours.
+        </p>
+        <button
+          class="border border-[#AF7452] text-[#AF7452] py-2 px-5 hover:bg-[#AF7452] hover:text-white transition-colors"
+        >
+          Explore
+        </button>
+      </div>
+    </header>
+
+    <!-- Responsive section for industrial streetwear -->
+    <section
+      class="flex flex-col-reverse md:flex-row justify-center items-center md:justify-around px-4 md:px-8 pt-10 md:pt-20 gap-8"
+    >
+      <div
+        class="flex flex-col justify-around items-center md:items-start text-center md:text-left mt-6 md:mt-0"
+      >
+        <h1 class="font-bold mb-4 md:mb-9 text-2xl md:text-3xl">
+          Bring Anime characters <br class="hidden md:block" />
+          to the street
+        </h1>
+        <p
+          class="w-full md:w-[340px] mb-4 md:mb-5 font-light text-sm md:text-base"
+        >
+          Anime cosplaying transforms fans into living embodiments of their
+          favorite characters through detailed costumes, wigs, and accessories.
+          This artistic expression combines craftsmanship, performance, and
+          community celebration at conventions worldwide. Cosplayers dedicate
+          countless hours perfecting their looks, creating a vibrant subculture
+          where imagination becomes reality and fictional worlds momentarily
+          exist in ours.
+        </p>
+        <button
+          class="border border-[#AF7452] text-[#AF7452] py-2 px-5 hover:bg-[#AF7452] hover:text-white transition-colors"
+        >
+          Shop Now
+        </button>
+      </div>
+      <img src="images/cos3.jpg" class="w-full max-w-[300px] mb-4 md:mb-8" />
+    </section>
+
+    <!-- Responsive features section -->
+    <section
+      class="flex flex-col md:flex-row justify-center items-center mt-10 md:mt-20 p-4 md:p-10"
+    >
+      <div class="p-4 md:p-10 md:ml-10 text-center md:text-left mb-8 md:mb-0">
+        <h1 class="font-bold mb-3 md:mb-6 text-lg md:text-xl">
+          Buy Now, Pay Later
+        </h1>
+        <p class="font-thin w-full md:w-[14rem] text-sm md:text-base">
+          0% interest financing available pay after 30 days.
+        </p>
+        <button
+          class="border border-[#AF7452] text-[#AF7452] py-2 px-5 mt-4 md:mt-6 hover:bg-[#AF7452] hover:text-white transition-colors"
+        >
+          Shop Now
+        </button>
+      </div>
+      <div class="p-4 md:p-10 md:ml-10 text-center md:text-left mb-8 md:mb-0">
+        <h1 class="font-bold mb-3 md:mb-6 text-lg md:text-xl">
+          Cashback Reward
+        </h1>
+        <p class="font-thin w-full md:w-[14rem] text-sm md:text-base">
+          Collect & Redeem on every order that you purchased.
+        </p>
+        <button
+          class="border border-[#AF7452] text-[#AF7452] py-2 px-5 mt-4 md:mt-6 hover:bg-[#AF7452] hover:text-white transition-colors"
+        >
+          Shop Now
+        </button>
+      </div>
+      <div class="p-4 md:p-10 md:ml-10 text-center md:text-left">
+        <h1 class="font-bold mb-3 md:mb-6 text-lg md:text-xl">
+          Secure Payment
+        </h1>
+        <p class="font-thin w-full md:w-[14rem] text-sm md:text-base">
+          Gurantee 100 secure payment online on our website.
+        </p>
+        <button
+          class="border border-[#AF7452] text-[#AF7452] py-2 px-5 mt-4 md:mt-6 hover:bg-[#AF7452] hover:text-white transition-colors"
+        >
+          Shop Now
+        </button>
+      </div>
+    </section>
   </body>
 </html>
